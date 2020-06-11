@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="D3DWindow">
+      <UniqueIdentifier>{0bdd3e26-0e54-4d2d-bac0-8bb97adc5db0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3dApp.h">
+      <Filter>D3DWindow</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3dApp.cpp">
+      <Filter>D3DWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>D3DWindow</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
